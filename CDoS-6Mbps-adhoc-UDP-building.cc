@@ -198,7 +198,7 @@ void experiment (bool enableCtsRts, uint16_t NumofNode, uint16_t DurationofSimul
   AthstatsHelper athstats;
   athstats.EnableAthstats (filename.str().c_str(), devices);
 
-  // 8. Run simulation for 10 seconds
+  // 8. Run simulation
   Simulator::Stop (Seconds (DurationofSimulation));
   Simulator::Run ();
 
